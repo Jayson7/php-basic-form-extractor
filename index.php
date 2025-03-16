@@ -64,6 +64,7 @@
         <div
             class="mt-6 w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow-md text-center dark:bg-gray-800 dark:border-gray-700">
             <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Submitted Data</h2>
+           
             <?php
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 if (!empty($_POST["username"]) && !empty($_POST["password"])) {
